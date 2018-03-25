@@ -1,19 +1,19 @@
-# postgres-flask
+## postgres-flask
 A simple step by step guide to using postgresql with flask.
 
-#Launch the Postgres cli
+# Launch the Postgres cli
 
 sudo -u postgres psql
 
-#Create the database
+# Create the database
 
 CREATE DATABASE <replace_db_name_here>;
 
-#Create user 
+# Create user 
 
 CREATE USER <replace_username_here> WITH PASSWORD '<replace_password_here>’;
 
-#Grant all privileges on database. 
+# Grant all privileges on database. 
 
 GRANT ALL PRIVILEGES ON DATABASE "<replace_db_name_here>" to <replace_username_here>;
 
